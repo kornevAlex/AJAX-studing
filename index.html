@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script defer src="./js/mainIndex.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Очень странные дела</title>
+</head>
+
+<body>
+  <div class="postsApp">
+    <div class="post__intarface">
+      <h1><a href="index.html">Panhard</a></h1>
+
+      <div class="hrefGroup">
+        <a href="#" class="hrefGroup__a" id="btnNews"><i class="fa fa-newspaper-o"></i> Последние
+          новости</a>
+        <a href="#" class="hrefGroup__a" id="btnRandom"><i class="fa fa-random"></i> Случайная лента
+          новостей</a>
+        <a href="#" class="hrefGroup__a" id="btnRight"><i
+            class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;Следующая</a>
+        <a href="#" class="hrefGroup__a" id="btnLeft" disabled><i
+            class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;Предыдущая</a>
+        <div class="pageInput">
+          <input type="number" class = "pageInput__input" min ="0">
+          <a href="#" id = "search_input"><i class = "fa fa-search"></i></a>
+        </div>
+        <h2 id = "countPage"></h2>
+      </div>
+    </div>
+    <div class="post__list">
+      <header class="header">
+        <div class="drop">
+          <h2 class="header__title"></h2>
+        </div>
+        <input type="text" class="search" name="search" placeholder="Вы что-то искали?">
+      </header>
+      <main class="my__post">
+        <div class="main__post">
+
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
